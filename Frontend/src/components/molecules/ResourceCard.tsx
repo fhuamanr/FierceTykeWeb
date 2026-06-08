@@ -9,6 +9,7 @@ const statusLabels: Record<Resource["status"], string> = {
 
 export function ResourceCard({ resource }: { resource: Resource }) {
   const Icon = resource.status === "restricted" ? LockKeyhole : RadioTower;
+  const domain = resource.href?.replace("https://", "").replace("http://", "");
 
   return (
     <article className="resource-card">
@@ -20,6 +21,7 @@ export function ResourceCard({ resource }: { resource: Resource }) {
         <p>{resource.kind}</p>
       </header>
       <h3>{resource.title}</h3>
+      {domain ? <span className="resource-domain">{domain}</span> : null}
       <p>{resource.description}</p>
       {resource.href ? (
         <a href={resource.href} target="_blank" rel="noreferrer">
@@ -30,4 +32,3 @@ export function ResourceCard({ resource }: { resource: Resource }) {
     </article>
   );
 }
-

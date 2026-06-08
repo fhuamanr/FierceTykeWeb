@@ -47,4 +47,3 @@ export type ContactPayload = {
   email: string;
   message: string;
 };
-

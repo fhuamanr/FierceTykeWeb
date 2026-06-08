@@ -73,30 +73,49 @@ export const fallbackResources: Resource[] = [
   {
     id: "portainer",
     title: "Portainer Homelab",
-    description: "Acceso operativo al entorno de contenedores, stacks y servicios internos.",
+    description: "Panel de administracion del entorno de contenedores del homelab.",
     kind: "Infraestructura",
     status: "restricted",
     href: "https://portainer.fiercetyke.com"
   },
   {
-    id: "runbooks",
-    title: "Runbooks",
-    description: "Procedimientos para despliegues, backups, rollback y mantenimiento del homelab.",
-    kind: "Documentacion",
-    status: "draft"
-  },
-  {
-    id: "templates",
-    title: "Plantillas de Proyectos",
-    description: "Bases reutilizables para frontends, APIs, workers y automatizaciones de aprendizaje.",
-    kind: "Codigo",
-    status: "online"
+    id: "excalidraw",
+    title: "Excalidraw",
+    description: "Pizarra visual para bocetar ideas, arquitectura y flujos de producto.",
+    kind: "Herramienta",
+    status: "online",
+    href: "https://excalidraw.fiercetyke.com"
   },
   {
     id: "coolify",
-    title: "Coolify Deployments",
-    description: "Inventario de apps, dominios, healthchecks y variables de despliegue.",
+    title: "Coolify",
+    description: "Centro de despliegues, dominios, variables y estado de aplicaciones.",
     kind: "Deploy",
-    status: "draft"
+    status: "restricted",
+    href: "https://coolify.fiercetyke.com"
+  },
+  {
+    id: "fiercetyke",
+    title: "FierceTyke Web",
+    description: "Sitio publico principal para perfil, portafolio, contacto y marca.",
+    kind: "Sitio",
+    status: "online",
+    href: "https://fiercetyke.com"
+  },
+  {
+    id: "drawio",
+    title: "Draw.io",
+    description: "Diagramas tecnicos, mapas de arquitectura y documentacion visual.",
+    kind: "Herramienta",
+    status: "online",
+    href: "https://drawio.fiercetyke.com"
+  },
+  {
+    id: "mermaid",
+    title: "Mermaid",
+    description: "Diagramas como texto para documentar procesos, sistemas y decisiones.",
+    kind: "Documentacion",
+    status: "online",
+    href: "https://mermaid.fiercetyke.com"
   }
 ];
