@@ -72,7 +72,7 @@ export const portfolioItems: PortfolioItem[] = [
 export const fallbackResources: Resource[] = [
   {
     id: "portainer",
-    title: "Portainer Homelab",
+    title: "Portainer",
     description: "Panel de administracion del entorno de contenedores del homelab.",
     kind: "Infraestructura",
     status: "restricted",
@@ -95,14 +95,6 @@ export const fallbackResources: Resource[] = [
     href: "https://coolify.fiercetyke.com"
   },
   {
-    id: "fiercetyke",
-    title: "FierceTyke Web",
-    description: "Sitio publico principal para perfil, portafolio, contacto y marca.",
-    kind: "Sitio",
-    status: "online",
-    href: "https://fiercetyke.com"
-  },
-  {
     id: "drawio",
     title: "Draw.io",
     description: "Diagramas tecnicos, mapas de arquitectura y documentacion visual.",
@@ -117,5 +109,37 @@ export const fallbackResources: Resource[] = [
     kind: "Documentacion",
     status: "online",
     href: "https://mermaid.fiercetyke.com"
+  },
+  {
+    id: "status",
+    title: "Status",
+    description: "Estado de servicios publicados y disponibilidad del homelab.",
+    kind: "Monitoreo",
+    status: "online",
+    href: "https://status.fiercetyke.com"
+  },
+  {
+    id: "n8n",
+    title: "n8n",
+    description: "Automatizaciones, integraciones y flujos operativos.",
+    kind: "Automatizacion",
+    status: "restricted",
+    href: "https://n8n.fiercetyke.com"
+  },
+  {
+    id: "wiki",
+    title: "Wiki",
+    description: "Base de conocimiento, notas tecnicas y documentacion interna.",
+    kind: "Documentacion",
+    status: "online",
+    href: "https://wiki.fiercetyke.com"
+  },
+  {
+    id: "qdrant",
+    title: "Qdrant",
+    description: "Base vectorial para busqueda semantica, experimentos y memoria de herramientas.",
+    kind: "Datos",
+    status: "restricted",
+    href: "https://qdrant.fiercetyke.com"
   }
 ];

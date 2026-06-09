@@ -156,7 +156,7 @@ export function DashboardPage() {
             <SectionHeading
               eyebrow="Recursos"
               title="Zona privada"
-              description="Accesos directos a las aplicaciones publicadas del homelab. Se excluye Collab por ahora."
+              description="Accesos directos a las aplicaciones publicadas del homelab y herramientas internas disponibles."
             />
             <div className="resource-grid">
               {resources.map((resource) => (
